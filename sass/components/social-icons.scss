@@ -1,0 +1,28 @@
+.social__icons {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding-left: 0px;
+}
+.social__icons-child {
+  fill: var(--first-background);
+  width: 20px;
+  height: 20px;
+}
+.social__icons-parent {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social__icons-parent:hover,
+.social__icons-parent:focus {
+  background-color: var(--web-color);
+  cursor: pointer;
+}

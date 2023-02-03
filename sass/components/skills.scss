@@ -1,0 +1,35 @@
+.what-we-do {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.skills__images {
+  display: flex;
+  padding-bottom: 94px;
+  justify-content: center;
+  gap: 30px;
+}
+.discription__img {
+  position: relative;
+}
+.discription__img-text {
+  position: absolute;
+  right: 30px;
+  bottom: -15px;
+  width: 370px;
+  height: 70px;
+  padding: 27px 90px;
+  font-weight: 700;
+  font-style: bold;
+  text-align: center;
+  color: var(--first-background);
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+img {
+  display: block;
+}

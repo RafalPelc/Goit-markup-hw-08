@@ -1,0 +1,58 @@
+.team__border-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 30px;
+}
+.section__team {
+  background-color: var(--third-background);
+  align-items: center;
+}
+.team__employee {
+  font-weight: 500;
+  line-height: 1.18;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team__position {
+  color: var(--contact-color);
+  font-size: 16px;
+  line-height: 1.18;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.team__border {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--first-background);
+}
+.team__figure {
+  width: 270px;
+  margin: 0px;
+}
+.team__figcaption {
+  text-align: center;
+}
+.category {
+  color: var(--contact-color);
+  line-height: 1.87;
+  margin-left: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.services {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-left: 24px;
+}
+.team__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0px;
+}

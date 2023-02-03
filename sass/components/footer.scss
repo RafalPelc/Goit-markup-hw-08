@@ -1,0 +1,38 @@
+.footer {
+  background: var(--second-background);
+  color: var(--first-background);
+  padding: 60px;
+}
+.footer__parent {
+  display: flex;
+}
+
+.footer__contact {
+  color: var(--footer-contact);
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+  margin-top: 9px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__adress {
+  display: block;
+  width: 246px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 20;
+}
+.icon__send {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  fill: var(--first-background);
+}
+
+.footer__contact:focus,
+.footer__contact:hover {
+  color: var(--first-background);
+}

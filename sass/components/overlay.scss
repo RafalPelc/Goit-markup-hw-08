@@ -1,0 +1,27 @@
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  display: flex;
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  background-color: var(--overlay);
+  transform: translateY(0%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay > p {
+  color: var(--first-background);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  padding: 49px 45px 49px 24px;
+}
+
+.portfolio__figure:hover .overlay,
+.portfolio__figure:focus .overlay {
+  transform: translateY(-100%);
+}
