@@ -1,7 +1,7 @@
-@import "./utils/mixins";
-@import "./utils/important";
+@import "./utils/mixins.scss";
 @import "./utils/variables";
 
+@import "./components/important";
 @import "./components/agencja-portfolio";
 @import "./components/service-button";
 @import "./components/card-set";
