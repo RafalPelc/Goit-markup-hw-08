@@ -3,6 +3,14 @@
   list-style: none;
   justify-content: center;
   gap: 30px;
+  @include tablet {
+    width: calc(100% / 2 - 30px);
+    margin: 15px;
+  }
+  @include desktop {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+  }
 }
 .section__team {
   background-color: var(--third-background);
@@ -29,7 +37,7 @@
   background: var(--first-background);
 }
 .team__figure {
-  width: 270px;
+  // width: 270px;
   margin: 0px;
 }
 .team__figcaption {
