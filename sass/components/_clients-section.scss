@@ -7,8 +7,8 @@
 .clients__section-list {
   display: flex;
   list-style: none;
-  justify-content: space-around;
-  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .clients__section-icon {
@@ -23,6 +23,13 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include tablet {
+    width: calc(100% / 3 - 30px);
+  }
+  @include desktop {
+    width: calc(100% / 6 - 30px);
+  }
 }
 
 .clients__section-icon:hover,

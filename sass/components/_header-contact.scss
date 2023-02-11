@@ -25,10 +25,25 @@
   gap: 50px;
   justify-content: space-between;
   list-style: none;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @include tablet {
+    display: block;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  @include desktop {
+    font-size: 14px;
+    display: flex;
+  }
 }
+
 .header__parent {
   display: flex;
-  width: 1200px;
+  max-width: 100%;
   height: 80px;
   align-items: center;
   justify-content: space-between;

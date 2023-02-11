@@ -4,7 +4,19 @@
   padding: 60px;
 }
 .footer__parent {
-  display: flex;
+  display: block;
+  text-align: center;
+
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @include desktop {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+  }
 }
 
 .footer__contact {
@@ -19,17 +31,11 @@
 }
 .footer__adress {
   display: block;
-  width: 246px;
+  width: 100%;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   margin-top: 20;
-}
-.icon__send {
-  position: absolute;
-  top: 13px;
-  right: 28px;
-  fill: var(--first-background);
 }
 
 .footer__contact:focus,

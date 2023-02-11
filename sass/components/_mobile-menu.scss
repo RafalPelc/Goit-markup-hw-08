@@ -17,9 +17,9 @@
   }
 }
 .container.header__parent {
-  position: absolute;
+  // position: absolute;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   width: 100%;
   @include tablet {
     width: 100%;

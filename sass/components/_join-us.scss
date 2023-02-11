@@ -4,4 +4,7 @@
   color: var(--first-background);
   margin-left: 70px;
   margin-top: 18px;
+  @include tablet {
+    margin-left: 144px;
+  }
 }
