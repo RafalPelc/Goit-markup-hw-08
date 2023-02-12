@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   color: var(--first-background);
-  justify-items: center;
+  justify-content: center;
   margin-top: 60px;
 
   @include tablet {
@@ -35,7 +35,7 @@
 .singup__input {
   margin-top: 20px;
   background-color: var(--secondary-bacground-color);
-  min-width: 400px;
+  min-width: 300px;
   height: 50px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
@@ -45,6 +45,13 @@
   padding-block: 15px;
   padding-left: 16px;
   margin-bottom: 20px;
+  @include tablet {
+    display: block;
+    width: 450px;
+  }
+  @include desktop {
+    width: 358px;
+  }
 }
 .icon__send {
   position: absolute;

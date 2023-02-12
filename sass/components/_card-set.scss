@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 30px;
+  // gap: 30px;
+  padding: 0;
 
   &-list {
     @include tablet {
@@ -36,6 +37,13 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
+
+    @include tablet {
+      text-align: left;
+    }
+    @include desktop {
+      text-align: left;
+    }
   }
   &-icons {
     display: flex;

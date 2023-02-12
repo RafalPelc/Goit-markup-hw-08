@@ -1,7 +1,7 @@
 .footer {
   background: var(--second-background);
   color: var(--first-background);
-  padding: 60px;
+  padding: 60px 0;
 }
 .footer__parent {
   display: block;
@@ -16,6 +16,11 @@
     display: flex;
     flex-wrap: nowrap;
     text-align: left;
+  }
+}
+.footer__child {
+  @include desktop {
+    margin-left: 30px;
   }
 }
 
