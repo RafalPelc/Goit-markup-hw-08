@@ -17,9 +17,60 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.6)
     ),
-    url("./../Images/img-overlay.jpg");
+    url("./../Images/index/img-overlay-1-mob.jpg");
   background-position: center;
   background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(./../Images/index/img-overlay-2-mob.jpg);
+  }
+
+  @include tablet {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(./../Images/index/img-overlay-1-tab.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(./../Images/index/img-overlay-2-tab.jpg);
+    }
+  }
+
+  @include desktop {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(./../Images/index/img-overlay-1-desktop.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(./../Images/index/img-overlay-2-desktop.jpg);
+    }
+  }
 }
 .order__button {
   font-family: "Roboto", sans-serif;

@@ -147,31 +147,59 @@
           <h2 class="what-we-do" id="Portfolio">Czym się zajmujemy</h2>
           <div class="skills__images">
             <div class="discription__img">
-              <img
-                src="./Images/box1.jpg"
-                width="370"
-                height="294"
-                alt="Projektowanie układu strony"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/index/box1.jpg   1x,
+                    ./images/index/box1-2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./Images/box1.jpg"
+                  width="370"
+                  height="294"
+                  alt="Projektowanie układu strony"
+                />
+              </picture>
               <p class="discription__img-text">APLIKACJE KOMPUTEROWE</p>
             </div>
             <div class="discription__img">
-              <img
-                src="./Images/box2.jpg"
-                width="370"
-                height="294"
-                alt="Projektowanie strony tak aby była czytelna w telefonie"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/index/box2.jpg   1x,
+                    ./images/index/box2-2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./Images/box2.jpg"
+                  width="370"
+                  height="294"
+                  alt="Projektowanie strony tak aby była czytelna w telefonie"
+                />
+              </picture>
 
               <p class="discription__img-text">APLIKACJE MOBILNE</p>
             </div>
             <div class="discription__img">
-              <img
-                src="./Images/box3.jpg"
-                width="370"
-                height="294"
-                alt="Projektowanie graficzne wszystkich widoków strony"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/index/box3.jpg   1x,
+                    ./images/index/box3-2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./Images/box3.jpg"
+                  width="370"
+                  height="294"
+                  alt="Projektowanie graficzne wszystkich widoków strony"
+                />
+              </picture>
               <p class="discription__img-text">ROZWIĄZANIA GRAFICZNE</p>
             </div>
           </div>
@@ -183,7 +211,32 @@
           <ul class="team__border-list">
             <li class="team__border">
               <figure class="team__figure">
-                <img src="./Images/team-prod-designer.jpg" alt="John Doe" />
+                <picture>
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-1-1-mob.jpg 1x,
+                      ./Images/index/john-doe-1-2-mob.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-1-1-tab.jpg 1x,
+                      ./Images/index/john-doe-1-2-tab.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-1-1-desktop.jpg 1x,
+                      ./Images/index/john-doe-1-2-desktop.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./Images/index/john-doe-1.jpg" alt="John Doe" />
+                </picture>
                 <figcaption class="team__figcaption">
                   <p class="team__employee">John Doe</p>
                   <p class="team__position">Product Designer</p>
@@ -222,7 +275,32 @@
             </li>
             <li class="team__border">
               <figure class="team__figure">
-                <img src="./Images/team-front-developer.jpg" alt="John Doe" />
+                <picture>
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-2-1-mob.jpg 1x,
+                      ./Images/index/john-doe-2-2-mob.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-2-1-tab.jpg 1x,
+                      ./Images/index/john-doe-2-2-tab.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-2-1-desktop.jpg 1x,
+                      ./Images/index/john-doe-2-2-desktop.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./Images/index/john-doe-2.jpg" alt="John Doe" />
+                </picture>
                 <figcaption class="team__figcaption">
                   <p class="team__employee">John Doe</p>
                   <p class="team__position">Frontend Developer</p>
@@ -261,7 +339,32 @@
             </li>
             <li class="team__border">
               <figure class="team__figure">
-                <img src="./Images/team-marketing.jpg" alt="John Doe" />
+                <picture>
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-3-1-mob.jpg 1x,
+                      ./Images/index/john-doe-3-2-mob.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-3-1-tab.jpg 1x,
+                      ./Images/index/john-doe-3-2-tab.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-3-1-desktop.jpg 1x,
+                      ./Images/index/john-doe-3-2-desktop.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./Images/index/john-doe-3.jpg" alt="John Doe" />
+                </picture>
                 <figcaption class="team__figcaption">
                   <p class="team__employee">John Doe</p>
                   <p class="team__position">Marketing</p>
@@ -301,7 +404,32 @@
 
             <li class="team__border">
               <figure class="team__figure">
-                <img src="./Images/team-ul-designer.jpg" alt="John Doe" />
+                <picture>
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-4-1-mob.jpg 1x,
+                      ./Images/index/john-doe-4-2-mob.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-4-1-tab.jpg 1x,
+                      ./Images/index/john-doe-4-2-tab.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./Images/index/john-doe-4-1-desktop.jpg 1x,
+                      ./Images/index/john-doe-4-2-desktop.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./Images/index/john-doe-4.jpg" alt="John Doe" />
+                </picture>
                 <figcaption class="team__figcaption">
                   <p class="team__employee">John Doe</p>
                   <p class="team__position">UL Designer</p>
