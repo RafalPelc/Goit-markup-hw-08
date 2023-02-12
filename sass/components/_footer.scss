@@ -36,6 +36,9 @@
   font-size: 14px;
   line-height: 1.71;
   margin-top: 20;
+  @include desktop {
+    width: 246px;
+  }
 }
 
 .footer__contact:focus,

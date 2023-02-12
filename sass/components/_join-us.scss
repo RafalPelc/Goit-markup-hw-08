@@ -2,9 +2,14 @@
   font-size: 14px;
   line-height: 1.14;
   color: var(--first-background);
-  margin-left: 70px;
-  margin-top: 18px;
+  margin-top: 60px;
+
   @include tablet {
     margin-left: 144px;
+    margin-top: 0px;
+  }
+  @include desktop {
+    margin-left: 70px;
+    margin-top: 18px;
   }
 }
